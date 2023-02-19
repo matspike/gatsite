@@ -83,6 +83,7 @@ if (config.gatsby && !config.gatsby.trailingSlash) {
 }
 
 module.exports = {
+  pathPrefix: "/gatsite",
   siteMetadata: {
     title: config.siteMetadata.title,
     description: config.siteMetadata.description,
